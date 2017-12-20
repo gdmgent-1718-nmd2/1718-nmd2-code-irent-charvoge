@@ -1,0 +1,83 @@
+---
+layout   : default
+permalink: betaal
+# Custom Page Variables
+# ─────────────────────
+title: Betalen
+---
+<div class="container1">
+        <div class="textcenter" class="container">
+            <div class="col-8 offset-2">
+                <form class="form">
+                    <p>Gegevens</p>
+                    <div class="form-group">
+                    <input type="gebruikersnaam" class="form-control" id="examplegebruikersnaam1" aria-describedby="gebruikersnaamHelp" placeholder="Kaartnummer BE">
+                    </div>
+                    <div class="form-group">
+                    <input type="voornaam" class="form-control" id="exampleInputvoornaam1" placeholder="Naam kaarthouder">
+                    </div>
+
+        <div class="row">
+             <div class="form-group col-md-4">
+                <label for="inputState">Verloopdatum</label>
+                    <select id="inputState" class="form-control">
+                          <option selected>maand</option>
+                          <option>Januari</option>
+                          <option>Februari</option>
+                          <option>Maart</option>
+                          <option>April</option>
+                          <option>Mei</option>
+                          <option>Juni</option>
+                          <option>Juli</option>
+                          <option>Augustus</option>
+                          <option>September</option>
+                          <option>Oktober</option>
+                          <option>November</option>
+                          <option>December</option>
+                    </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">Verloopdatum</label>
+                    <select id="inputState" class="form-control">
+                          <option selected>Jaar</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                    </select>
+            </div>
+            <div class="col-md-4">
+            <ul>
+                <li class="list-group-item">BEDRAG <br> €15</li>
+            </ul>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Betaal</button>
+            </div>
+         </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Betaald</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Uw verwerking is betaald
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+          <a href="index.html">
+          <button type="button" class="btn btn-danger">Verder shoppen</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

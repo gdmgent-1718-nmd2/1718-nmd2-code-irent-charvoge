@@ -1,0 +1,87 @@
+---
+layout   : default
+permalink: mijnaccount
+# Custom Page Variables
+# ─────────────────────
+title: Mijn account
+---
+<div class="container">
+    <h1 class="textcenter">Mijn account</h1>
+</div>
+
+<div class="container1">
+    <div class="textcenter" class="container">
+        <div class="col-8 offset-2">
+            <form class="form">
+                <p>Login</p>
+                <div class="form-group">
+                <input type="gebruikersnaam" class="form-control" id="examplegebruikersnaam1" aria-describedby="gebruikersnaamHelp" placeholder="Gebruikersnaam">
+                </div>
+                <div class="form-group">
+                <input type="wachtwoord" class="form-control" id="exampleInputPassword1" placeholder="Wachtwoord">
+                </div>  
+                <a href="mijnreservaties.html">
+                <button type="button" class="btn btn-danger" >Verder</button>
+                </a>
+                <a href="betaal.html">
+                <button type="button" class="btn btn-danger" >Betaal</button>
+                </a>
+             </form>
+        </div>
+    </div>
+</div>
+
+<div class="container1">
+        <div class="textcenter" class="container">
+            <div class="col-8 offset-2">
+                <form class="form">
+                    <p>Registreer</p>
+                    <div class="form-group">
+                    <input type="gebruikersnaam" class="form-control" id="examplegebruikersnaam1" aria-describedby="gebruikersnaamHelp" placeholder="Gebruikersnaam">
+                    </div>
+                    <div class="form-group">
+                    <input type="voornaam" class="form-control" id="exampleInputvoornaam1" placeholder="Voornaam">
+                    </div>
+                    <div class="form-group">
+                    <input type="achternaam" class="form-control" id="exampleInputachernaam" placeholder="Achternaam">
+                    </div>
+                    <div class="form-group">
+                    <input type="telefoon" class="form-control" id="exampleInputtelefoon" placeholder="Telefoon">
+                    </div>  
+                    <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputemail" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                    <input type="wachtwoord" class="form-control" id="exampleInputwachtwoord" placeholder="Wachtwoord">
+                    </div>
+                    <div class="form-group">
+                    <input type="herhaalwachtwoord" class="form-control" id="exampleInputherhaalwachtwoord" placeholder="Herhaal wachtwoord">
+                    </div>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Voltooi</button>
+                </form>
+            </div>
+        </div>
+</div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Voltooid!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Uw registraties is goed verwerkt! U kunt doorgaan naar betalen of dit venster sluiten.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+              <a href="betaal.html">
+              <button type="button" class="btn btn-danger">Betaal</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
