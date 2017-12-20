@@ -23,17 +23,19 @@ a:hover {
 }
 
 a:active{
-  text-decoration: non;
+  text-decoration: none;
   color: red;
 }
 
 .form-control{
   border-color:red;
+  text-decoration: none;
 }
 
 .card{
   margin-top: 30px;
-  margin-bottom: 30px;
+  background-color: #343a40;
+  border-radius: 0%;
 }
 
 .form {
@@ -41,3 +43,37 @@ a:active{
   padding:40px;
 }
 
+.footer_text{
+  color: white;
+}
+
+.card-body{
+  padding-top: 0;
+}
+
+.card-header{
+  border: none;
+  background-color: #343a40;
+}
+
+.collapse{
+  text-align: center;
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+.icoon{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar:active{
+  color: red;
+}
