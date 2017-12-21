@@ -74,6 +74,19 @@ a:active{
   padding-right: 10px;
 }
 
-.navbar:active{
+.nav-link :active{
   color: red;
+}
+
+.verkoopsbeleid {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.list-group-item{
+  margin-bottom: 20px;
+}
+
+.btn{
+  margin-bottom:50px;
 }
